@@ -1,0 +1,21 @@
+:root
+{
+  /*les dimensions*/
+  --max-width:1200px;
+  --min-width:375px;
+
+  /*padding*/
+  --padding-thin:10px;
+  --padding-large:20px;
+
+  /*margin*/
+  --margin-thin:10px;
+  --margin-large:20px;
+}
+
+/*media queries breakpoints*/
+$vw-thin:320px;
+$vw-small:576px;
+$vw-medium:768px;
+$vw-large:992px;
+$vw-huge:var(--max-width);
