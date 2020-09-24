@@ -1,0 +1,10 @@
+.hero
+{
+  text-align: center;
+  background-color: var(--couleur-arriere-fond-secondaire);
+
+  .bouton
+  {
+    background: linear-gradient(180deg, #62BDFC 0%, #8490FF 100%);
+  }
+}

@@ -6,23 +6,17 @@ a
     text-decoration: none;
 
   }
+
+
   &:visited
   {
     color: var(--couleur-liens-visite);
 
   }
-  &:hover
-  {
+
+  &:hover {
     color: var(--couleur-survol);
     text-decoration: underline;
-
-  }
-  &:active
-  {
-
-  }
-  &:focus
-  {
 
   }
 }
