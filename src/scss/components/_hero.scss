@@ -1,10 +1,60 @@
 .hero
 {
-  text-align: center;
   background-color: var(--couleur-arriere-fond-secondaire);
+  .wrapper
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: var(--padding-large) var(--padding-thin) 0 var(--padding-thin);
+  }
+
+
+
 
   .bouton
   {
     background: linear-gradient(180deg, #62BDFC 0%, #8490FF 100%);
+    padding:var(--padding-thin) var(--padding-large);
+
+
+
+      color: var(--couleur-primaire);
+      text-transform: uppercase;
+
+  }
+  img
+  {
+    margin-top: var(--margin-large);
+    width: 50%;
+
+
   }
 }
+
+@media screen and (min-width: $vw-medium)
+{
+  .hero
+  {
+    .wrapper
+    {
+      flex-direction: row;
+
+      .texte_hero
+      {
+        width: 48%;
+
+        .bouton
+        {
+          margin-top: var(--margin-large);
+
+        }
+
+
+      }
+    }
+  }
+}
+

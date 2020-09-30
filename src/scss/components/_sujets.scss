@@ -23,3 +23,43 @@
 
 
 }
+
+@media screen and (min-width: $vw-medium)
+{
+
+  .sujets
+  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: var(--padding-thin);
+
+
+    .sujet
+    {
+      width: 40%;
+      margin-top: var(--margin-large);
+
+
+    }
+  }
+
+
+}
+
+@media screen and (min-width: $vw-huge)
+{
+  .sujets .sujet
+  {
+    width: 30%;
+
+
+
+
+
+  }
+
+
+}
